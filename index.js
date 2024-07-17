@@ -15,6 +15,7 @@ bot.on('message', msg => {
     console.log(test || 8443)
     console.log('Text: ' + text);
     console.log('ChatId: ' + chatId);
+    //new code row
 
     bot.sendMessage(chatId, 'Your message: ' + text);
 })
